@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Data Form</title>
+</head>
+<body>
+
+  <h2>Personal Data Form</h2>
+  
+  <form action="#" method="post">
+
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+    
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="18" max="100" required><br><br>
+    
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="USA">USA</option>
+      <option value="Canada">Canada</option>
+      <option value="UK">UK</option>
+      <option value="Australia">Australia</option>
+      <!-- Add more countries as needed -->
+    </select><br><br>
+    
+    <label for="newsletter">Subscribe to newsletter:</label><br>
+    <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+    
+    <label for="interests">Interests:</label><br>
+    <input type="checkbox" id="interest1" name="interest1" value="sports">
+    <label for="interest1">Sports</label><br>
+    <input type="checkbox" id="interest2" name="interest2" value="music">
+    <label for="interest2">Music</label><br>
+    <input type="checkbox" id="interest3" name="interest3" value="books">
+    <label for="interest3">Books</label><br><br>
+    
+    <label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+    
+    <input type="submit" value="Submit">
+    
+  </form>
+
+</body>
+</html>

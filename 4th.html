@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Upload Form</title>
+</head>
+<body>
+
+  <h2>Article Upload Form</h2>
+  
+  <form action="#" method="post">
+
+    <label for="filePath">File Path:</label><br>
+    <input type="text" id="filePath" name="filePath" required><br><br>
+    
+    <label for="authorName">Author Name:</label><br>
+    <input type="text" id="authorName" name="authorName" required><br><br>
+    
+    <label for="type">Type:</label><br>
+    <input type="radio" id="technical" name="type" value="technical">
+    <label for="technical">Technical</label><br>
+    <input type="radio" id="literary" name="type" value="literary">
+    <label for="literary">Literary</label><br>
+    <input type="radio" id="general" name="type" value="general">
+    <label for="general">General</label><br><br>
+    
+    <label for="subjectTopic">Subject Topic:</label><br>
+    <select id="subjectTopic" name="subjectTopic">
+      <option value="technology">Technology</option>
+      <option value="literature">Literature</option>
+      <option value="science">Science</option>
+      <option value="history">History</option>
+      <!-- Add more topics as needed -->
+    </select><br><br>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    
+  </form>
+
+</body>
+</html>
